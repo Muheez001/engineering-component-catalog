@@ -37,7 +37,7 @@ function App() {
       <header className="bg-white dark:bg-slate-900 border-b-4 border-industrial-blue dark:border-slate-700 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-4xl font-bold text-industrial-blue dark:text-industrial-light font-mono text-center">
-            ENGINEERING COMPONENT CATALOG
+            INTEGRATED COMPONENT CATALOG
           </h1>
           <p className="text-center text-gray-600 dark:text-gray-400 font-mono text-sm mt-2 uppercase tracking-wide">
             Technical Reference Database
