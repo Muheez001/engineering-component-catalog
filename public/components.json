@@ -1,0 +1,1802 @@
+[
+    {
+        "id": 1,
+        "name": "2N2222",
+        "type": "NPN Transistor",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?transistor,electronics",
+        "pinout": "TO-92: E(1), B(2), C(3)",
+        "function": "NPN BJT for switching/amplification. Ic=800mA, Vce=40V, hFE=100-300",
+        "applications": [
+            "Switching circuits",
+            "Audio amplifiers",
+            "LED drivers",
+            "Signal amplification",
+            "Logic level conversion",
+            "Motor driver interfaces",
+            "Oscillator circuits"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "2N3904",
+        "type": "NPN Transistor",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,component",
+        "pinout": "TO-92: E(1), B(2), C(3)",
+        "function": "General purpose NPN transistor. Ic=200mA, Vce=40V, hFE=100-300",
+        "applications": [
+            "Low-power switching",
+            "Signal amplification",
+            "Timing circuits",
+            "LED drivers",
+            "Logic circuits",
+            "Small signal applications",
+            "Buffer stages"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "BC547",
+        "type": "NPN Transistor",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?circuit,chip",
+        "pinout": "TO-92: C(1), B(2), E(3)",
+        "function": "Small signal NPN transistor. Ic=100mA, Vce=45V, hFE=110-800",
+        "applications": [
+            "Audio preamplifiers",
+            "Switching applications",
+            "Driver circuits",
+            "Signal amplification",
+            "Oscillators",
+            "Timer circuits",
+            "Sensor interfaces"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "2N3906",
+        "type": "PNP Transistor",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?semiconductor",
+        "pinout": "TO-92: E(1), B(2), C(3)",
+        "function": "General purpose PNP transistor. Ic=-200mA, Vce=-40V, hFE=100-300",
+        "applications": [
+            "Complementary circuits",
+            "High-side switching",
+            "Current sources",
+            "Level shifting",
+            "Inverter stages",
+            "Protection circuits",
+            "Analog switching"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "IRF540",
+        "type": "N-Channel MOSFET",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?mosfet,power",
+        "pinout": "TO-220: G(1), D(2), S(3)",
+        "function": "Power MOSFET. Id=33A, Vds=100V, Rds(on)=44mΩ",
+        "applications": [
+            "Motor control",
+            "Switching power supplies",
+            "LED drivers",
+            "Inverters",
+            "PWM controllers",
+            "High current switching",
+            "H-bridge circuits"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "1N4007",
+        "type": "Rectifier Diode",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?diode",
+        "pinout": "DO-41: Anode, Cathode (banded)",
+        "function": "Silicon rectifier. If=1A, Vr=1000V, Vf=1.1V",
+        "applications": [
+            "AC to DC conversion",
+            "Flyback protection",
+            "Reverse polarity protection",
+            "Power supplies",
+            "Battery charging",
+            "Voltage clamping",
+            "Rectifier bridges"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "1N4148",
+        "type": "Signal Diode",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,diode",
+        "pinout": "DO-35: Anode, Cathode (banded)",
+        "function": "Fast switching diode. If=200mA, Vr=100V, trr=4ns",
+        "applications": [
+            "Signal switching",
+            "Logic circuits",
+            "High-speed switching",
+            "Clamping circuits",
+            "Level shifting",
+            "Polarity indicators",
+            "Wave shaping"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "1N5819",
+        "type": "Schottky Diode",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,power",
+        "pinout": "DO-41: Anode, Cathode (banded)",
+        "function": "Low Vf Schottky. If=1A, Vr=40V, Vf=0.55V",
+        "applications": [
+            "Low voltage rectification",
+            "Reverse polarity protection",
+            "Solar panels",
+            "Battery protection",
+            "Fast switching",
+            "Voltage drop reduction",
+            "Efficient power circuits"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "1N4733A",
+        "type": "Zener Diode 5.1V",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?component",
+        "pinout": "DO-41: Anode, Cathode (banded)",
+        "function": "Zener voltage regulator. Vz=5.1V ±5%, Pz=1W",
+        "applications": [
+            "Voltage regulation",
+            "Reference voltage",
+            "Overvoltage protection",
+            "Level shifting",
+            "Voltage clamping",
+            "Bias circuits",
+            "Stabilization"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "LED Red 5mm",
+        "type": "Light Emitting Diode",
+        "category": "Semiconductors",
+        "imageUrl": "https://source.unsplash.com/400x300/?led,light",
+        "pinout": "5mm: Anode(long), Cathode(short)",
+        "function": "Red LED. Vf=1.8-2.2V, If=20mA, λ=620-630nm",
+        "applications": [
+            "Status indicators",
+            "Display panels",
+            "Backlighting",
+            "Optical communication",
+            "Sensors",
+            "Visual feedback",
+            "Decorative lighting"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "10kΩ Resistor",
+        "type": "Fixed Resistor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?resistor,electronics",
+        "pinout": "Axial: Non-polarized leads",
+        "function": "Carbon film resistor. R=10kΩ ±5%, P=1/4W",
+        "applications": [
+            "Pull-up/pull-down",
+            "Voltage dividers",
+            "Current limiting",
+            "Biasing circuits",
+            "RC timing",
+            "Signal conditioning",
+            "Load resistors"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "1kΩ Resistor",
+        "type": "Fixed Resistor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,component",
+        "pinout": "Axial: Non-polarized leads",
+        "function": "Carbon film resistor. R=1kΩ ±5%, P=1/4W",
+        "applications": [
+            "LED current limiting",
+            "Signal attenuation",
+            "Voltage division",
+            "Biasing",
+            "Base resistors",
+            "Pull-up resistors",
+            "General purpose"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "100Ω Resistor",
+        "type": "Fixed Resistor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?resistor",
+        "pinout": "Axial: Non-polarized leads",
+        "function": "Carbon film resistor. R=100Ω ±5%, P=1/4W",
+        "applications": [
+            "LED drivers",
+            "Low resistance loads",
+            "Current sensing",
+            "Termination",
+            "Damping circuits",
+            "Base resistors",
+            "Low value applications"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "10µF Electrolytic",
+        "type": "Electrolytic Capacitor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?capacitor,electronics",
+        "pinout": "Radial: +(long), -(short)",
+        "function": "Aluminum electrolytic. C=10µF, V=50V, ESR low",
+        "applications": [
+            "Power supply filtering",
+            "Decoupling",
+            "Energy storage",
+            "Timing circuits",
+            "Audio coupling",
+            "Smoothing",
+            "Bypass capacitors"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "100µF Electrolytic",
+        "type": "Electrolytic Capacitor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,capacitor",
+        "pinout": "Radial: +(long), -(short)",
+        "function": "Aluminum electrolytic. C=100µF, V=25V, ESR low",
+        "applications": [
+            "Power supplies",
+            "Motor starting",
+            "Audio circuits",
+            "Energy storage",
+            "DC filtering",
+            "Ripple reduction",
+            "Bulk capacitance"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "100nF Ceramic",
+        "type": "Ceramic Capacitor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?capacitor",
+        "pinout": "Radial/SMD: Non-polarized",
+        "function": "MLCC ceramic. C=100nF, V=50V, X7R/Y5V",
+        "applications": [
+            "Decoupling",
+            "Bypass filtering",
+            "High frequency noise",
+            "IC power pins",
+            "Signal coupling",
+            "Timing circuits",
+            "RF applications"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "10nF Ceramic",
+        "type": "Ceramic Capacitor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?electronics,small",
+        "pinout": "Radial/SMD: Non-polarized",
+        "function": "MLCC ceramic. C=10nF, V=50V, X7R",
+        "applications": [
+            "High frequency decoupling",
+            "Timing circuits",
+            "Filter networks",
+            "Coupling capacitors",
+            "Oscillator circuits",
+            "Noise suppression",
+            "Signal processing"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "1µH Inductor",
+        "type": "Power Inductor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?inductor,coil",
+        "pinout": "Axial/Radial: Non-polarized",
+        "function": "Ferrite core inductor. L=1µH, Isat=3A",
+        "applications": [
+            "DC-DC converters",
+            "Power supply filtering",
+            "EMI suppression",
+            "Buck/boost circuits",
+            "Switching regulators",
+            "Energy storage",
+            "LC filters"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "100µH Inductor",
+        "type": "Choke Inductor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?coil,electronics",
+        "pinout": "Axial: Non-polarized",
+        "function": "Iron core inductor. L=100µH, Isat=500mA",
+        "applications": [
+            "RF chokes",
+            "Filter circuits",
+            "Power line filtering",
+            "Noise suppression",
+            "Oscillators",
+            "Tuned circuits",
+            "Impedance matching"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "10kΩ Potentiometer",
+        "type": "Variable Resistor",
+        "category": "Passive Components",
+        "imageUrl": "https://source.unsplash.com/400x300/?potentiometer",
+        "pinout": "3-pin: CW, Wiper, CCW",
+        "function": "Linear taper pot. R=10kΩ, P=100mW",
+        "applications": [
+            "Volume control",
+            "Brightness adjustment",
+            "Voltage adjustment",
+            "Tuning circuits",
+            "User input",
+            "Calibration",
+            "Variable biasing"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "NE555",
+        "type": "Timer IC",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?ic,chip",
+        "pinout": "8-DIP: GND(1), TRIG(2), OUT(3), RST(4), CV(5), THR(6), DIS(7), VCC(8)",
+        "function": "Precision timer. Astable/monostable modes, 4.5-16V",
+        "applications": [
+            "Timers",
+            "Oscillators",
+            "PWM",
+            "Pulse generation",
+            "LED flashers",
+            "VCO",
+            "Missing pulse detector"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "LM358",
+        "type": "Dual Op-Amp",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?opamp,ic",
+        "pinout": "8-DIP: OUT1(1), IN1-(2), IN1+(3), GND(4), IN2+(5), IN2-(6), OUT2(7), VCC(8)",
+        "function": "Dual op-amp. Rail-to-rail, 3-32V, GBW=1MHz",
+        "applications": [
+            "Amplifiers",
+            "Comparators",
+            "Active filters",
+            "Signal conditioning",
+            "Instrumentation",
+            "Sensors",
+            "Audio circuits"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "LM741",
+        "type": "Op-Amp",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?amplifier,chip",
+        "pinout": "8-DIP: OS1(1), IN-(2), IN+(3), V-(4), OS2(5), OUT(6), V+(7), NC(8)",
+        "function": "General purpose op-amp. ±5V to ±18V, GBW=1MHz",
+        "applications": [
+            "Audio amplifiers",
+            "Active filters",
+            "Comparators",
+            "Instrumentation",
+            "Integrators",
+            "Buffers",
+            "Math operations"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "74HC595",
+        "type": "Shift Register",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?digital,ic",
+        "pinout": "16-DIP: QB-QH(1-7,15), GND(8), QH'(9), SRCLR(10), SRCLK(11), RCLK(12), OE(13), SER(14), VCC(16)",
+        "function": "8-bit serial-in parallel-out shift register",
+        "applications": [
+            "LED matrix control",
+            "Port expansion",
+            "Serial to parallel conversion",
+            "Display drivers",
+            "Daisy chaining",
+            "GPIO expansion",
+            "Multiplexing"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "74HC00",
+        "type": "NAND Gate",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?logic,gate",
+        "pinout": "14-DIP: 4x 2-input NAND gates",
+        "function": "Quad 2-input NAND gate. 2-6V CMOS logic",
+        "applications": [
+            "Logic circuits",
+            "Clock generators",
+            "Oscillators",
+            "Boolean operations",
+            "Debouncing",
+            "Signal inversion",
+            "Combinational logic"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "4N35",
+        "type": "Optocoupler",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?optocoupler",
+        "pinout": "6-DIP: A(1), C(2), NC(3), E(4), C(5), B(6)",
+        "function": "Phototransistor optocoupler. CTR=100%, Viso=5kV",
+        "applications": [
+            "Isolation",
+            "Level shifting",
+            "AC line detection",
+            "High voltage interface",
+            "Ground loop breaking",
+            "Signal isolation",
+            "Safety circuits"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "L293D",
+        "type": "Motor Driver",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?motor,driver",
+        "pinout": "16-DIP: Dual H-bridge, EN, IN, OUT, VCC, GND",
+        "function": "Dual H-bridge driver. 600mA per channel, 36V max",
+        "applications": [
+            "DC motor control",
+            "Stepper motors",
+            "Bidirectional control",
+            "Robot cars",
+            "Speed control",
+            "Direction control",
+            "Small actuators"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "ULN2003",
+        "type": "Darlington Array",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?driver,ic",
+        "pinout": "16-DIP: IN1-7(1-7), GND(8), COM(9), OUT7-1(10-16)",
+        "function": "7-channel Darlington driver. 500mA, 50V",
+        "applications": [
+            "Relay drivers",
+            "LED drivers",
+            "Stepper motors",
+            "High current loads",
+            "Solenoid drivers",
+            "Display multiplexing",
+            "Logic to power interface"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "LM317",
+        "type": "Adjustable Regulator",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?voltage,regulator",
+        "pinout": "TO-220: ADJ(1), OUT(2), IN(3)",
+        "function": "Adjustable linear regulator. 1.25-37V, 1.5A",
+        "applications": [
+            "Variable power supplies",
+            "Battery chargers",
+            "Current regulators",
+            "Constant voltage sources",
+            "Bench supplies",
+            "Voltage references",
+            "LED drivers"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "7805",
+        "type": "5V Regulator",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?power,supply",
+        "pinout": "TO-220: IN(1), GND(2), OUT(3)",
+        "function": "5V fixed regulator. 7-35V in, 1.5A, thermal protection",
+        "applications": [
+            "5V power supplies",
+            "Arduino power",
+            "Digital circuits",
+            "USB power",
+            "MCU power",
+            "Logic level power",
+            "Stable voltage sources"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "DHT11",
+        "type": "Temperature/Humidity",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?sensor,temperature",
+        "pinout": "4-pin: VCC(1), DATA(2), NC(3), GND(4)",
+        "function": "Digital sensor. 0-50°C, 20-90%RH, ±2°C, ±5%RH",
+        "applications": [
+            "Weather stations",
+            "HVAC control",
+            "Climate monitoring",
+            "Greenhouses",
+            "Smart homes",
+            "Data logging",
+            "Environmental sensing"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "DHT22",
+        "type": "Temperature/Humidity",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?precision,sensor",
+        "pinout": "4-pin: VCC, DATA, NC, GND",
+        "function": "Higher precision. -40-80°C, 0-100%RH, ±0.5°C, ±2%RH",
+        "applications": [
+            "Precision monitoring",
+            "Laboratory environments",
+            "Data centers",
+            "Agricultural control",
+            "Museum climate",
+            "Research projects",
+            "HVAC optimization"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "HC-SR04",
+        "type": "Ultrasonic Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?ultrasonic,sensor",
+        "pinout": "4-pin: VCC, TRIG, ECHO, GND",
+        "function": "Distance measurement. 2cm-4m, 40kHz, ±3mm accuracy",
+        "applications": [
+            "Obstacle detection",
+            "Parking sensors",
+            "Robotics",
+            "Level measurement",
+            "Proximity sensing",
+            "Collision avoidance",
+            "Distance meters"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "MPU6050",
+        "type": "6-Axis IMU",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?gyroscope,accelerometer",
+        "pinout": "8-pin: VCC, GND, SCL, SDA, XDA, XCL, AD0, INT",
+        "function": "3-axis gyro + 3-axis accel. I2C, 16-bit ADC, DMP",
+        "applications": [
+            "Drone stabilization",
+            "Self-balancing robots",
+            "Motion tracking",
+            "Gesture recognition",
+            "Orientation detection",
+            "Activity monitoring",
+            "Gaming controllers"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "DS18B20",
+        "type": "Digital Temperature",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?temperature,probe",
+        "pinout": "TO-92: GND(1), DATA(2), VCC(3)",
+        "function": "1-Wire digital thermometer. -55-125°C, ±0.5°C",
+        "applications": [
+            "Temperature logging",
+            "HVAC systems",
+            "Aquarium monitoring",
+            "Industrial sensing",
+            "Food storage",
+            "Multi-point sensing",
+            "Weather stations"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "LM35",
+        "type": "Analog Temperature",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?analog,sensor",
+        "pinout": "TO-92: VCC(1), OUT(2), GND(3)",
+        "function": "Linear temp sensor. 10mV/°C, 0-100°C, ±0.5°C",
+        "applications": [
+            "Temperature monitoring",
+            "HVAC control",
+            "Process control",
+            "Battery management",
+            "Overheat protection",
+            "Data acquisition",
+            "Thermal management"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "PIR HC-SR501",
+        "type": "Motion Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?motion,detector",
+        "pinout": "3-pin: VCC, OUT, GND + 2 pots",
+        "function": "Passive infrared motion. 3-7m range, 120° angle",
+        "applications": [
+            "Security systems",
+            "Automatic lighting",
+            "Presence detection",
+            "Energy saving",
+            "Intrusion alarms",
+            "Smart homes",
+            "Occupancy sensing"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "BH1750",
+        "type": "Light Intensity",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?light,sensor",
+        "pinout": "5-pin: VCC, SCL, SDA, ADDR, GND",
+        "function": "Digital light sensor. I2C, 1-65535 lux, 16-bit",
+        "applications": [
+            "Auto brightness",
+            "Solar tracking",
+            "Light meters",
+            "Smart lighting",
+            "Photography",
+            "Energy optimization",
+            "Display dimming"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "MQ-2",
+        "type": "Gas Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?gas,sensor",
+        "pinout": "6-pin: H, H, A, B, GND, VCC",
+        "function": "Detects LPG, smoke, alcohol. Analog/digital output",
+        "applications": [
+            "Gas leak detection",
+            "Smoke alarms",
+            "Air quality monitoring",
+            "Safety systems",
+            "Industrial monitoring",
+            "Ventilation control",
+            "Fire detection"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "IR Obstacle",
+        "type": "Infrared Proximity",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?infrared,sensor",
+        "pinout": "3-pin: VCC, OUT, GND + pot",
+        "function": "IR reflective sensor. 2-30cm, digital output",
+        "applications": [
+            "Line following robots",
+            "Obstacle detection",
+            "Object counting",
+            "Proximity switching",
+            "Edge detection",
+            "Position sensing",
+            "Automation"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "ESP32-DevKitC",
+        "type": "WiFi/BLE MCU",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?esp32,iot",
+        "pinout": "38-pin: GPIO, ADC, DAC, UART, SPI, I2C, PWM, Touch",
+        "function": "Dual-core 240MHz, 520KB SRAM, WiFi, BLE, 3.3V",
+        "applications": [
+            "IoT projects",
+            "Web servers",
+            "BLE devices",
+            "Sensor networks",
+            "Home automation",
+            "Wireless communication",
+            "Edge computing"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Arduino Uno R3",
+        "type": "AVR Development Board",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?arduino,board",
+        "pinout": "ATmega328P: 14 Digital I/O, 6 Analog, USB, Power",
+        "function": "16MHz, 32KB Flash, 2KB SRAM, IDE programmable",
+        "applications": [
+            "Learning platform",
+            "Prototyping",
+            "Sensor projects",
+            "LED control",
+            "Robotics",
+            "Automation",
+            "STEM education"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Arduino Nano",
+        "type": "Compact AVR Board",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?nano,microcontroller",
+        "pinout": "ATmega328P: 22 I/O, Mini-USB",
+        "function": "16MHz, 32KB Flash, breadboard-friendly, compact",
+        "applications": [
+            "Embedded projects",
+            "Space-constrained designs",
+            "Wearables",
+            "Small robots",
+            "Portable devices",
+            "Prototype integration",
+            "Final products"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "ESP8266 NodeMCU",
+        "type": "WiFi MCU",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?esp8266,wifi",
+        "pinout": "30-pin: GPIO, ADC, UART, SPI, I2C, PWM",
+        "function": "80MHz, 128KB RAM, WiFi 802.11 b/g/n, 3.3V",
+        "applications": [
+            "WiFi projects",
+            "IoT devices",
+            "Web servers",
+            "MQTT clients",
+            "Remote monitoring",
+            "Smart switches",
+            "Wireless sensors"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "STM32F103C8T6",
+        "type": "ARM Cortex-M3",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?stm32,arm",
+        "pinout": "48-pin: GPIO, UART, SPI, I2C, USB, ADC, Timers",
+        "function": "72MHz, 64KB Flash, 20KB RAM, 32-bit processor",
+        "applications": [
+            "High-performance control",
+            "Motor controllers",
+            "Industrial automation",
+            "USB projects",
+            "Fast processing",
+            "Real-time systems",
+            "Advanced robotics"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Raspberry Pi Pico",
+        "type": "RP2040 MCU",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?raspberry,pico",
+        "pinout": "40-pin: Dual-core, 26 GPIO, ADC, UART, SPI, I2C, PWM",
+        "function": "133MHz dual-core, 264KB RAM, USB, PIO",
+        "applications": [
+            "Real-time control",
+            "USB devices",
+            "Audio projects",
+            "LED matrices",
+            "Custom peripherals",
+            "Learning C/Python",
+            "Prototyping"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "ATtiny85",
+        "type": "8-bit AVR MCU",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?attiny,small",
+        "pinout": "8-DIP: RESET, PB0-4, GND, VCC",
+        "function": "8MHz, 8KB Flash, 512B RAM, tiny package",
+        "applications": [
+            "Small projects",
+            "LED controllers",
+            "Simple sensors",
+            "Wearable electronics",
+            "Battery-powered devices",
+            "Space-constrained designs",
+            "Minimalist projects"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Arduino Mega 2560",
+        "type": "Large AVR Board",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?mega,arduino",
+        "pinout": "ATmega2560: 54 Digital, 16 Analog, 4 UART",
+        "function": "16MHz, 256KB Flash, 8KB SRAM, many pins",
+        "applications": [
+            "Complex projects",
+            "3D printers",
+            "CNC machines",
+            "Many sensors",
+            "Robotics",
+            "Data logging",
+            "Pin-intensive applications"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Blue Pill STM32",
+        "type": "ARM Development",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?bluepill,stm32",
+        "pinout": "40-pin: STM32F103C8T6, USB, SWD",
+        "function": "72MHz, 64KB Flash, 20KB RAM, low cost ARM",
+        "applications": [
+            "ARM learning",
+            "Fast prototyping",
+            "USB projects",
+            "Motor control",
+            "Signal processing",
+            "Advanced timers",
+            "Cost-effective designs"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "ATmega328P-PU",
+        "type": "AVR Microcontroller",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?atmega,chip",
+        "pinout": "28-DIP: 23 I/O, UART, SPI, I2C, ADC, Timers",
+        "function": "20MHz max, 32KB Flash, 2KB SRAM, Arduino core",
+        "applications": [
+            "DIY Arduino",
+            "Standalone projects",
+            "Breadboard circuits",
+            "Custom PCBs",
+            "Production designs",
+            "Low power applications",
+            "Embedded systems"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "LM2596 Module",
+        "type": "Buck Converter",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?buck,converter",
+        "pinout": "4-pin: IN+, IN-, OUT+, OUT-",
+        "function": "Step-down DC-DC. 4-40V in, 1.25-37V out, 3A",
+        "applications": [
+            "Voltage regulation",
+            "Battery power",
+            "Solar systems",
+            "Automotive",
+            "Efficient power",
+            "Voltage conversion",
+            "Power supplies"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "XL6009 Module",
+        "type": "Boost Converter",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?boost,power",
+        "pinout": "4-pin: IN+, IN-, OUT+, OUT-",
+        "function": "Step-up DC-DC. 3-32V in, 5-35V out, 4A",
+        "applications": [
+            "Battery boosting",
+            "LED drivers",
+            "Solar charging",
+            "Voltage step-up",
+            "Power delivery",
+            "Motor supplies",
+            "Portable power"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "TP4056 Module",
+        "type": "Li-Ion Charger",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?battery,charger",
+        "pinout": "5-pin: IN+, IN-, B+, B-, OUT+, OUT-",
+        "function": "1A Li-Ion/LiPo charger. 4.2V, protection",
+        "applications": [
+            "Battery charging",
+            "Power banks",
+            "Portable projects",
+            "Solar chargers",
+            "18650 cells",
+            "LiPo batteries",
+            "Mobile power"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "AMS1117-3.3",
+        "type": "3.3V LDO",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?regulator,ldo",
+        "pinout": "SOT-223: GND(1), OUT(2), IN(3)",
+        "function": "3.3V LDO regulator. 4.5-15V in, 1A, low dropout",
+        "applications": [
+            "3.3V supplies",
+            "ESP8266/ESP32 power",
+            "Logic level conversion",
+            "Low noise power",
+            "Battery regulation",
+            "Microcontroller power",
+            "Sensor power"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "MT3608 Module",
+        "type": "2A Boost",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?micro,boost",
+        "pinout": "4-pin: IN+, IN-, OUT+, OUT-",
+        "function": "Micro boost. 2-24V in, 5-28V out, 2A",
+        "applications": [
+            "USB power",
+            "LED strips",
+            "Small boosts",
+            "Portable devices",
+            "Battery projects",
+            "Compact power",
+            "DIY power banks"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "HW-131 Module",
+        "type": "DC-DC Buck",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?miniature,power",
+        "pinout": "2-pin IN, 2-pin OUT",
+        "function": "Mini buck. 4.5-24V in, 0.8-17V out, 3A",
+        "applications": [
+            "Space-constrained power",
+            "Embedded systems",
+            "Efficient regulation",
+            "Battery devices",
+            "Compact projects",
+            "Mobile electronics",
+            "Low profile designs"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "LM386",
+        "type": "Audio Amplifier",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?audio,amplifier",
+        "pinout": "8-DIP: GAIN(1,8), IN-(2), IN+(3), GND(4), OUT(5), VS(6), BYPASS(7)",
+        "function": "Low voltage audio amp. 0.3W, 4-12V, gain 20-200",
+        "applications": [
+            "Small speakers",
+            "Intercoms",
+            "Radio receivers",
+            "Audio projects",
+            "Signal amplification",
+            "Portable audio",
+            "DIY speakers"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "TDA2030",
+        "type": "Audio Power Amp",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?power,audio",
+        "pinout": "5-pin: OUT+(1), IN-(2), GND(3), IN+(4), VS(5)",
+        "function": "18W audio amplifier. ±6V to ±18V, 3.5A",
+        "applications": [
+            "Audio systems",
+            "Subwoofers",
+            "Home theater",
+            "Car audio",
+            "Power amplifiers",
+            "Active speakers",
+            "Sound systems"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "CD4017",
+        "type": "Decade Counter",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?counter,cmos",
+        "pinout": "16-DIP: Q0-Q9 outputs, CLK, RST, EN, VDD, VSS",
+        "function": "Decade counter/divider. CMOS, 3-15V",
+        "applications": [
+            "LED chasers",
+            "Sequential circuits",
+            "Frequency dividers",
+            "Timers",
+            "Pattern generators",
+            "Digital dice",
+            "Light shows"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "L7812",
+        "type": "12V Regulator",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?12v,regulator",
+        "pinout": "TO-220: IN(1), GND(2), OUT(3)",
+        "function": "12V fixed regulator. 14.5-35V in, 1.5A",
+        "applications": [
+            "12V supplies",
+            "Op-amp power",
+            "Relay drivers",
+            "LED strips",
+            "Automotive",
+            "Motor power",
+            "Stable 12V sources"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "MCP23017",
+        "type": "I/O Expander",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?expander,gpio",
+        "pinout": "28-DIP: 16 GPIO, I2C, INT, RST",
+        "function": "16-bit I2C I/O expander. 8 address pins",
+        "applications": [
+            "GPIO expansion",
+            "Keypad matrices",
+            "LED control",
+            "Sensor arrays",
+            "Pin-limited MCUs",
+            "Industrial control",
+            "Multiple devices"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "DS1307",
+        "type": "RTC Module",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?rtc,clock",
+        "pinout": "8-DIP: X1, X2, VBAT, GND, SDA, SCL, SQW, VCC",
+        "function": "Real-time clock. I2C, 3.3/5V, battery backup",
+        "applications": [
+            "Timekeeping",
+            "Data logging",
+            "Alarms",
+            "Scheduling",
+            "Time stamps",
+            "Calendar functions",
+            "Event timing"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "MAX7219",
+        "type": "LED Driver",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?led,matrix",
+        "pinout": "24-DIP: 8x8 LED driver, SPI interface",
+        "function": "8-digit LED display driver. SPI, multiplexed",
+        "applications": [
+            "LED matrices",
+            "7-segment displays",
+            "Digital clocks",
+            "Scoreboards",
+            "Message displays",
+            "Daisy chaining",
+            "Multiplexed LEDs"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "PCF8574",
+        "type": "I2C I/O Expander",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?i2c,expander",
+        "pinout": "16-DIP: 8 I/O, I2C, INT, A0-A2",
+        "function": "8-bit I2C GPIO. 8 addresses available",
+        "applications": [
+            "LCD I2C adapters",
+            "GPIO expansion",
+            "Keypad scanning",
+            "Simple I/O",
+            "Sensor interfaces",
+            "Remote I/O",
+            "I2C devices"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "AD8232",
+        "type": "ECG Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?ecg,medical",
+        "pinout": "Module: LO+, LO-, OUT, 3.3V, GND, SDN",
+        "function": "Heart rate monitor. Single-lead ECG, analog output",
+        "applications": [
+            "Heart rate monitoring",
+            "ECG projects",
+            "Health devices",
+            "Fitness trackers",
+            "Medical prototypes",
+            "Vital signs",
+            "Biometric sensing"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "MAX30102",
+        "type": "Pulse Oximeter",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?pulse,oximeter",
+        "pinout": "8-pin: LED, PD, I2C, INT, VDD, GND",
+        "function": "SpO2 and heart rate. I2C, integrated LEDs",
+        "applications": [
+            "Pulse oximeters",
+            "Heart rate monitors",
+            "Fitness bands",
+            "Health tracking",
+            "Oxygen saturation",
+            "Wearables",
+            "Medical devices"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "VL53L0X",
+        "type": "ToF Distance",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?laser,distance",
+        "pinout": "Module: VCC, GND, SCL, SDA, GPIO1, XSHUT",
+        "function": "Laser ToF sensor. I2C, 30-1000mm, ±3%",
+        "applications": [
+            "Robotics",
+            "Gesture detection",
+            "Presence sensing",
+            "Level measurement",
+            "Proximity detection",
+            "Collision avoidance",
+            "Automation"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "BME280",
+        "type": "Environmental Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?environmental,sensor",
+        "pinout": "Module: VCC, GND, SCL, SDA, CSB, SDO",
+        "function": "Temp, humidity, pressure. I2C/SPI, high precision",
+        "applications": [
+            "Weather stations",
+            "Altitude measurement",
+            "Climate control",
+            "Environmental monitoring",
+            "Drones",
+            "Indoor air quality",
+            "HVAC systems"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "ACS712",
+        "type": "Current Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?current,sensor",
+        "pinout": "8-pin: IP+, IP-, FILTER, GND, VIOUT, VCC",
+        "function": "Hall-effect current sensor. ±5/20/30A, analog out",
+        "applications": [
+            "Current monitoring",
+            "Power meters",
+            "Motor control",
+            "Battery management",
+            "Overcurrent protection",
+            "Energy metering",
+            "Load sensing"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "ADXL345",
+        "type": "3-Axis Accelerometer",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?accelerometer",
+        "pinout": "Module: VCC, GND, SCL, SDA, SDO, CS, INT1, INT2",
+        "function": "3-axis accel. I2C/SPI, ±2/4/8/16g, 13-bit",
+        "applications": [
+            "Tilt sensing",
+            "Motion detection",
+            "Tap detection",
+            "Activity tracking",
+            "Orientation",
+            "Vibration analysis",
+            "Impact detection"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "HMC5883L",
+        "type": "Magnetometer",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?compass,magnetometer",
+        "pinout": "Module: VCC, GND, SCL, SDA, DRDY",
+        "function": "3-axis digital compass. I2C, 1-8 Gauss",
+        "applications": [
+            "Digital compass",
+            "Navigation",
+            "Heading detection",
+            "Magnetic field sensing",
+            "Robot orientation",
+            "Drone navigation",
+            "Position tracking"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Rain Sensor",
+        "type": "Water Detection",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?rain,water",
+        "pinout": "Module: VCC, GND, AO, DO + pot",
+        "function": "Raindrop detection. Analog/digital output",
+        "applications": [
+            "Weather monitoring",
+            "Auto wipers",
+            "Irrigation control",
+            "Roof monitoring",
+            "Leak detection",
+            "Smart windows",
+            "Environmental sensing"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Soil Moisture",
+        "type": "Capacitive Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?soil,moisture",
+        "pinout": "3-pin: VCC, GND, AOUT",
+        "function": "Capacitive moisture sensor. Analog output",
+        "applications": [
+            "Plant watering",
+            "Irrigation systems",
+            "Agriculture",
+            "Greenhouse automation",
+            "Smart farming",
+            "Gardening projects",
+            "Moisture monitoring"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "KY-040",
+        "type": "Rotary Encoder",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?rotary,encoder",
+        "pinout": "5-pin: CLK, DT, SW, +, GND",
+        "function": "Incremental encoder with switch. 20 pulses/rotation",
+        "applications": [
+            "Volume control",
+            "Menu navigation",
+            "Position sensing",
+            "User input",
+            "Tuning",
+            "Value adjustment",
+            "Interface control"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "SW-420",
+        "type": "Vibration Sensor",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?vibration,sensor",
+        "pinout": "3-pin: VCC, OUT, GND + pot",
+        "function": "Vibration/shock detection. Digital output",
+        "applications": [
+            "Alarm systems",
+            "Tamper detection",
+            "Earthquake sensing",
+            "Vehicle security",
+            "Impact detection",
+            "Machine monitoring",
+            "Safety systems"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Sound Sensor",
+        "type": "Microphone Module",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?microphone,sound",
+        "pinout": "3-pin: VCC, OUT, GND + pot",
+        "function": "Sound detection. Analog/digital output, sensitivity adj",
+        "applications": [
+            "Sound activated switches",
+            "Clap detection",
+            "Noise monitoring",
+            "Audio level sensing",
+            "Voice activation",
+            "Acoustic triggers",
+            "Sound meters"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Flame Sensor",
+        "type": "IR Flame Detector",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?flame,fire",
+        "pinout": "4-pin: AO, DO, GND, VCC + pot",
+        "function": "IR flame detection. 760-1100nm, analog/digital",
+        "applications": [
+            "Fire detection",
+            "Safety systems",
+            "Flame monitoring",
+            "Burner control",
+            "Fire alarms",
+            "Industrial safety",
+            "Emergency alerts"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "HX711",
+        "type": "Load Cell Amplifier",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?load,weight",
+        "pinout": "Module: E+, E-, A+, A-, B+, B-, GND, DT, SCK, VCC",
+        "function": "24-bit ADC for load cells. 2-channel, 10/80Hz",
+        "applications": [
+            "Digital scales",
+            "Weight measurement",
+            "Force sensing",
+            "Precision weighing",
+            "Kitchen scales",
+            "Industrial weighing",
+            "Load monitoring"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "NRF24L01",
+        "type": "2.4GHz Transceiver",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?wireless,rf",
+        "pinout": "8-pin: GND, VCC, CE, CSN, SCK, MOSI, MISO, IRQ",
+        "function": "2.4GHz wireless. SPI, 2Mbps, 100m range",
+        "applications": [
+            "Wireless communication",
+            "Remote control",
+            "Sensor networks",
+            "Data transmission",
+            "RC projects",
+            "Mesh networks",
+            "Telemetry"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "HC-05",
+        "type": "Bluetooth Module",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?bluetooth,module",
+        "pinout": "6-pin: EN, VCC, GND, TX, RX, STATE",
+        "function": "Bluetooth 2.0 SPP. UART, master/slave, 10m range",
+        "applications": [
+            "Wireless control",
+            "Data logging",
+            "Serial communication",
+            "Remote monitoring",
+            "Robot control",
+            "Home automation",
+            "Mobile apps"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "HC-06",
+        "type": "Bluetooth Slave",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?bluetooth,serial",
+        "pinout": "4-pin: VCC, GND, TX, RX",
+        "function": "Bluetooth 2.0 slave only. UART, 10m range",
+        "applications": [
+            "Simple wireless links",
+            "Serial bridges",
+            "Mobile control",
+            "Data transfer",
+            "Arduino Bluetooth",
+            "Wireless sensors",
+            "Remote displays"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "USB to TTL",
+        "type": "Serial Converter",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?usb,serial",
+        "pinout": "6-pin: DTR, RX, TX, VCC, CTS, GND",
+        "function": "CH340/CP2102 USB-UART. 3.3/5V, auto-reset",
+        "applications": [
+            "MCU programming",
+            "Serial debugging",
+            "UART communication",
+            "Arduino upload",
+            "Console access",
+            "Data logging",
+            "Terminal interface"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "OLED 0.96\"",
+        "type": "I2C Display",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?oled,display",
+        "pinout": "4-pin: GND, VCC, SCL, SDA",
+        "function": "128x64 OLED. I2C/SPI, SSD1306, monochrome",
+        "applications": [
+            "Status displays",
+            "Menus",
+            "Data visualization",
+            "Compact interfaces",
+            "Portable projects",
+            "Wearables",
+            "Instrument panels"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "TFT 1.8\"",
+        "type": "Color Display",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?tft,color",
+        "pinout": "8-pin: LED, SCK, SDA, A0, RESET, CS, GND, VCC",
+        "function": "128x160 TFT. SPI, ST7735, 65K colors",
+        "applications": [
+            "Graphical displays",
+            "Images",
+            "Charts",
+            "Color interfaces",
+            "Game displays",
+            "Data dashboards",
+            "Visual feedback"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Nextion Display",
+        "type": "HMI Touch Screen",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?touchscreen,hmi",
+        "pinout": "4-pin: TX, RX, VCC, GND",
+        "function": "Intelligent display. UART, resistive touch, GUI editor",
+        "applications": [
+            "User interfaces",
+            "Control panels",
+            "Home automation",
+            "Industrial HMI",
+            "Touch controls",
+            "Graphical menus",
+            "Interactive displays"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "WS2812B LED",
+        "type": "Addressable RGB",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?rgb,led",
+        "pinout": "4-pin: VCC, GND, DIN, DOUT",
+        "function": "Smart RGB LED. Single-wire control, 5V, daisy chain",
+        "applications": [
+            "LED strips",
+            "Matrix displays",
+            "Ambient lighting",
+            "RGB projects",
+            "Visual effects",
+            "Indicator lights",
+            "Art installations"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Relay Module 5V",
+        "type": "1-Channel Relay",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?relay,module",
+        "pinout": "3-pin: VCC, GND, IN + NO/NC/COM terminals",
+        "function": "5V coil, 10A/250VAC contact, optocoupler isolation",
+        "applications": [
+            "AC control",
+            "High power switching",
+            "Home automation",
+            "Appliance control",
+            "Motor control",
+            "Safety interlocks",
+            "Remote switches"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "SSR-25DA",
+        "type": "Solid State Relay",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?ssr,solid",
+        "pinout": "4-pin: DC+, DC-, AC1, AC2",
+        "function": "25A solid state relay. 3-32VDC control, 24-380VAC load",
+        "applications": [
+            "AC motor control",
+            "Heater control",
+            "Silent switching",
+            "PID control",
+            "Temperature control",
+            "Lighting",
+            "Industrial automation"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "MOSFET Module",
+        "type": "Switch Module",
+        "category": "Power Modules",
+        "imageUrl": "https://source.unsplash.com/400x300/?mosfet,switch",
+        "pinout": "3-pin: PWM, VIN+, VOUT+",
+        "function": "IRF520/540 module. PWM control, 24V/5A",
+        "applications": [
+            "PWM dimming",
+            "Motor speed control",
+            "LED brightness",
+            "Power switching",
+            "Arduino control",
+            "High current loads",
+            "Efficient switching"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "16x2 LCD I2C",
+        "type": "Character Display",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?lcd,i2c",
+        "pinout": "4-pin: GND, VCC, SDA, SCL",
+        "function": "16x2 char LCD with I2C backpack. PCF8574, 5V",
+        "applications": [
+            "Text displays",
+            "Status messages",
+            "Menu systems",
+            "Data readouts",
+            "User interfaces",
+            "Arduino projects",
+            "Simple HMI"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Keypad 4x4",
+        "type": "Matrix Keypad",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?keypad,matrix",
+        "pinout": "8-pin: 4 rows, 4 columns",
+        "function": "16-key membrane keypad. Matrix scan, 0-9, A-D, *, #",
+        "applications": [
+            "User input",
+            "Access control",
+            "PIN entry",
+            "Password locks",
+            "Menus",
+            "Calculators",
+            "Control panels"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Joystick Module",
+        "type": "Analog Joystick",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?joystick,analog",
+        "pinout": "5-pin: GND, VCC, VRx, VRy, SW",
+        "function": "2-axis analog joystick with button. 10k pots",
+        "applications": [
+            "Game controllers",
+            "Robot control",
+            "Camera pan/tilt",
+            "User input",
+            "Menu navigation",
+            "RC projects",
+            "Interface control"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "TM1637",
+        "type": "4-Digit Display",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?segment,display",
+        "pinout": "4-pin: CLK, DIO, VCC, GND",
+        "function": "4-digit 7-segment LED driver. 2-wire interface",
+        "applications": [
+            "Clocks",
+            "Counters",
+            "Timers",
+            "Temperature displays",
+            "Score displays",
+            "Simple readouts",
+            "Numeric output"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "SD Card Module",
+        "type": "Storage Interface",
+        "category": "Microcontrollers",
+        "imageUrl": "https://source.unsplash.com/400x300/?sd,card",
+        "pinout": "6-pin: GND, VCC, MISO, MOSI, SCK, CS",
+        "function": "SPI microSD card reader. FAT16/32, 3.3/5V",
+        "applications": [
+            "Data logging",
+            "Audio playback",
+            "Config storage",
+            "File systems",
+            "Large data",
+            "MP3 players",
+            "Image storage"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "RTC DS3231",
+        "type": "Precision RTC",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?rtc,precision",
+        "pinout": "Module: SCL, SDA, VCC, GND, SQW, 32K",
+        "function": "High precision RTC. I2C, ±2ppm, battery backup, temp sensor",
+        "applications": [
+            "Accurate timekeeping",
+            "Data logging timestamps",
+            "Alarms",
+            "Real-time events",
+            "Synchronization",
+            "Calendar",
+            "Time-critical systems"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "MPR121",
+        "type": "Capacitive Touch",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?touch,capacitive",
+        "pinout": "Module: IRQ, SCL, SDA, VCC, GND + 12 touch pads",
+        "function": "12-channel capacitive touch. I2C, proximity detection",
+        "applications": [
+            "Touch interfaces",
+            "Capacitive buttons",
+            "Musical instruments",
+            "Touch sensors",
+            "Proximity detection",
+            "Interactive art",
+            "Game controllers"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "PAM8403",
+        "type": "Mini Audio Amp",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?mini,amplifier",
+        "pinout": "Module: L+, L-, R+, R-, VCC, GND, LIN, RIN",
+        "function": "2x3W stereo amp. Class D, 2.5-5V, efficient",
+        "applications": [
+            "Portable speakers",
+            "Small audio projects",
+            "Battery powered",
+            "Bluetooth speakers",
+            "MP3 players",
+            "Compact audio",
+            "Low power amplification"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "GY-521 MPU6050",
+        "type": "IMU Module",
+        "category": "Sensors",
+        "imageUrl": "https://source.unsplash.com/400x300/?imu,module",
+        "pinout": "8-pin: VCC, GND, SCL, SDA, XDA, XCL, AD0, INT",
+        "function": "Complete IMU module. 3-axis gyro + accel, I2C, DMP",
+        "applications": [
+            "Quadcopters",
+            "Self-balancing",
+            "Motion capture",
+            "VR tracking",
+            "Robotics",
+            "Gesture control",
+            "Orientation sensing"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "AT24C256",
+        "type": "EEPROM I2C",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?eeprom,memory",
+        "pinout": "8-DIP: A0-A2, GND, SDA, SCL, WP, VCC",
+        "function": "256Kbit EEPROM. I2C, 1M write cycles, 100 years retention",
+        "applications": [
+            "Config storage",
+            "Calibration data",
+            "Settings backup",
+            "Serial numbers",
+            "Non-volatile memory",
+            "Parameter storage",
+            "Data persistence"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "W25Q128",
+        "type": "SPI Flash",
+        "category": "Integrated Circuits",
+        "imageUrl": "https://source.unsplash.com/400x300/?flash,memory",
+        "pinout": "8-SOP: CS, DO, WP, GND, DI, CLK, HOLD, VCC",
+        "function": "128Mbit flash memory. SPI, 104MHz, fast read",
+        "applications": [
+            "Firmware storage",
+            "Large data logging",
+            "Bootloaders",
+            "File systems",
+            "Audio/image storage",
+            "Code storage",
+            "Data backup"
+        ]
+    }
+]

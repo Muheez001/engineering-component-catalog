@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --industrial-blue: #1E3A8A;
+  --industrial-accent: #3B82F6;
+  --industrial-light: #60A5FA;
+  --bg-white: #FFFFFF;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --border-gray: #E5E7EB;
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Mono', 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F9FAFB;
+}
+
+* {
+  box-sizing: border-box;
+}
